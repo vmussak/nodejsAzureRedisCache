@@ -1,0 +1,29 @@
+{
+  "name": "azurerediscache",
+  "version": "1.0.0",
+  "description": "Exemplo de utilização do Azure Redis Cache",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmussak/nodejsAzureRedisCache.git"
+  },
+  "keywords": [
+    "azure",
+    "cache",
+    "redis"
+  ],
+  "author": "Vinicius Mussak <vinicius.mussak@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmussak/nodejsAzureRedisCache/issues"
+  },
+  "homepage": "https://github.com/vmussak/nodejsAzureRedisCache#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "redis": "^2.2.5"
+  }
+}
